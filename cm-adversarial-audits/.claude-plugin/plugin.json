@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "cm-adversarial-audits",
+  "displayName": "CM Adversarial Audits",
+  "version": "0.2.0",
+  "description": "Before applying a plan or a non-trivial change, run a panel of independent, grounded adversarial auditors (distinct lenses), verify each finding against real code, and harvest only the confirmed ones. The auditor roster is a config option — the number of auditors is just how many names you list (e.g. Tom, Mary, Joan = 3). Toggle with /cm-audit-on and /cm-audit-off.",
+  "author": {
+    "name": "CompuMatter"
+  },
+  "license": "MIT",
+  "keywords": ["audit", "adversarial", "multi-agent", "verification"],
+  "defaultEnabled": false,
+  "skills": "./skills/",
+  "commands": ["./commands/"],
+  "hooks": "./hooks/hooks.json"
+}
