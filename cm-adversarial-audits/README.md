@@ -25,8 +25,12 @@ claude plugin install cm-adversarial-audits@cm-claude-plugins
 ```
 Or, inside a Claude Code session, in one step: `/plugin install cm-adversarial-audits --marketplace compumatter/cm-claude-plugins`
 
-Restart Claude Code (plugins load at startup). Installing does not switch the audit on: `defaultEnabled` is
-`false` and the hook is a deliberate no-op until a per-project marker exists, so in each project where you want
+The plugin installs disabled (`defaultEnabled` is `false`). Enable it, then restart Claude Code (plugins load at
+startup):
+```bash
+claude plugin enable cm-adversarial-audits@cm-claude-plugins
+```
+Even enabled, the hook is a deliberate no-op until a per-project marker exists, so in each project where you want
 audits run `/cm-audit-on`. It is zero-cost until wanted. Each audit launches one agent per auditor, so it
 costs tokens; `/cm-audit-off` stops it.
 

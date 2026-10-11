@@ -22,8 +22,11 @@ claude plugin install cm-adversarial-audits@cm-claude-plugins
 ```
 Or, inside a Claude Code session, in one step: `/plugin install cm-adversarial-audits --marketplace compumatter/cm-claude-plugins`
 
-Restart Claude Code, then in each project where you want audits run `/cm-audit-on`. Nothing runs until you
-do. Each audit launches one agent per auditor (three by default), so it costs tokens; `/cm-audit-off` stops it.
+The plugin installs disabled. Enable it, then restart Claude Code:
+```bash
+claude plugin enable cm-adversarial-audits@cm-claude-plugins
+```
+Then in each project where you want audits run `/cm-audit-on`. Nothing runs until you do. Each audit launches one agent per auditor (three by default), so it costs tokens; `/cm-audit-off` stops it.
 
 ## cm-autoclear (paid)
 
