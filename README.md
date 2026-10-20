@@ -38,16 +38,16 @@ off, four slash commands (setup, handoff, cleanup, status), and plain-language d
 decides it is time to hand off writes the handoff and starts its own successor, so unattended work keeps
 going without anyone pressing /clear.
 
-Price: $19.00 one-time, updates included. It will be sold as a zip download from aicodeplugins.com; the store
-is not open yet. The zip contains the plugin, its licence and the install instructions. cm-autoclear is not in
-this repository and is not covered by this repository's MIT licence.
+Price: $19.00 one-time, updates included. Buy it at https://aicodeplugins.com/plugins/cm-autoclear. The zip
+contains the plugin, its licence and the install instructions. cm-autoclear is not in this repository and is
+not covered by this repository's MIT licence.
 
 Requirements: Linux (tested on Ubuntu 22.04; macOS untested), bash 4+, tmux 2.6+, Claude Code 2.1+ logged in.
 Sessions it starts run with permissions bypassed by default (configurable).
 
 ## Issues and support
 
-Issues here are for cm-adversarial-audits; cm-autoclear support comes with the purchase.
+Issues here are for cm-adversarial-audits; cm-autoclear support comes with the purchase (support@aicodeplugins.com).
 
 ## Layout (for contributors)
 
