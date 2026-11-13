@@ -38,16 +38,30 @@ off, four slash commands (setup, handoff, cleanup, status), and plain-language d
 decides it is time to hand off writes the handoff and starts its own successor, so unattended work keeps
 going without anyone pressing /clear.
 
-Price: $19.00 one-time, updates included. Buy it at https://aicodeplugins.com/plugins/cm-autoclear. The zip
+Price: $19.00 one-time, updates included. Buy it at https://pluginsmatter.com/plugins/cm-autoclear. The zip
 contains the plugin, its licence and the install instructions. cm-autoclear is not in this repository and is
 not covered by this repository's MIT licence.
 
 Requirements: Linux (tested on Ubuntu 22.04; macOS untested), bash 4+, tmux 2.6+, Claude Code 2.1+ logged in.
 Sessions it starts run with permissions bypassed by default (configurable).
 
+## cm-multi-session (paid)
+
+Several Claude Code sessions working in one project break each other's shared things: the database, the Docker
+stack, the dev server, one-at-a-time jobs such as builds and test runs, and the next migration number. Git
+worktrees keep their files apart; cm-multi-session keeps everything else apart. Each session claims the section it
+is working on before changing it, waits its turn for shared jobs, and draws numbers from one counter, so no two
+sessions collide.
+
+Price: $39.00 one-time, updates included. Buy it at https://pluginsmatter.com/plugins/cm-multi-session. Like
+cm-autoclear, it is not in this repository and is not covered by this repository's MIT licence.
+
+How to install a paid plugin: https://pluginsmatter.com/install
+
 ## Issues and support
 
-Issues here are for cm-adversarial-audits; cm-autoclear support comes with the purchase (support@aicodeplugins.com).
+Issues here are for cm-adversarial-audits. For cm-autoclear and cm-multi-session, use the contact form at
+https://pluginsmatter.com/contact (a lost download link can be re-sent at https://pluginsmatter.com/resend).
 
 ## Layout (for contributors)
 
